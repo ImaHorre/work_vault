@@ -111,5 +111,47 @@
       ],
       "key": "W"
     }
+  ],
+  "quickadd:choice:task-macro-id": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:issue-macro-id": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "quickadd:choice:simple-task-capture": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:insert-Parse-Task": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:91b1efd0-1d75-4d45-92da-32cd03c07a07": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
+    }
   ]
 }

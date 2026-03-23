@@ -16,4 +16,4 @@ The current state of the Peak Emulsions one-drive folder system is disorganised 
 ---
 
 ## Status
-- Active / Paused / Solved
+- Active 

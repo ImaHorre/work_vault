@@ -1,32 +1,47 @@
 {
   "choices": [
     {
-      "id": "task-macro-id",
-      "name": "/task",
-      "type": "Macro",
+      "id": "simple-task-capture",
+      "name": "Add Task to Rolling TODO",
+      "type": "Capture",
       "command": true,
-      "macros": [
-        {
-          "name": "Task Creation Macro",
-          "type": "UserScript",
-          "path": ".obsidian/plugins/quickadd/scripts/task-macro.js",
-          "settings": {}
-        }
-      ]
+      "appendLink": false,
+      "captureTo": "04_Tasks/Tasks.md",
+      "captureToActiveFile": false,
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{VALUE}} #general ([[{{DATE:YYYY-MM-DD}}]])"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "*Quick capture: Use `/task` in daily notes to add items here*",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "task": false,
+      "openFile": false
     },
     {
-      "id": "issue-macro-id",
-      "name": "/issue",
+      "id": "91b1efd0-1d75-4d45-92da-32cd03c07a07",
+      "name": "Line Task Capture",
       "type": "Macro",
       "command": true,
-      "macros": [
-        {
-          "name": "Issue Creation Macro",
-          "type": "UserScript",
-          "path": ".obsidian/plugins/quickadd/scripts/issue-macro.js",
-          "settings": {}
-        }
-      ]
+      "runOnStartup": false,
+      "macro": {
+        "name": "Line Task Capture",
+        "id": "606c71a5-ed40-4438-9db7-64b61ca13ada",
+        "commands": [
+          {
+            "name": "line-task-capture",
+            "type": "UserScript",
+            "id": "5dcee037-c1ef-4797-b6d0-3bf28c569a4f",
+            "path": "Scripts/line-task-capture.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

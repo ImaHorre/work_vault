@@ -4,16 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "a0ca808051de76b0",
+        "id": "5081b3c1902dce97",
         "type": "tabs",
         "children": [
           {
-            "id": "bccd505a17fb40e9",
+            "id": "6e672f1d84b8de0d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Tasks/Tasks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Tasks"
+            }
+          },
+          {
+            "id": "2f37e8a74593bb08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99_Journal_Staging/Daily_Notes/2026-03-02.md",
+                "file": "00_Daily/Conor/2026-03-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-02"
+              "title": "2026-03-23"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,21 +193,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98_Templates/Daily.md",
+                "file": "00_Daily/Conor/2026-03-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily"
+              "title": "Outline of 2026-03-23"
+            }
+          },
+          {
+            "id": "f30512745e071f7b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,46 +228,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "githobs:Manage a github issue": false
     }
   },
-  "active": "2d09a686a571525b",
+  "active": "2f37e8a74593bb08",
   "lastOpenFiles": [
-    "06_Concepts",
+    "04_Tasks/Tasks.md",
+    "00_Daily/Conor/2026-03-23.md",
+    "02_Projects/Innobooster/Innobooster - DTU Food Report Plan.md",
+    "02_Projects/Innobooster/Innobooster  - DTU Food.md",
+    "02_Projects/Innobooster",
+    "CLAUDE.md",
+    "06_Concepts/P_oil vs droplet production stage timings.md",
+    "06_Concepts/numerical model.md",
+    "04_Tasks/Daily Tasks.md",
+    "Scripts/line-task-capture.js",
+    "Scripts",
+    "98_Templates/Simple-Task.md",
+    "98_Templates/Parse-Task.md",
+    "01_Product/Issues/OneDrive folder refactor & obsidian filtering plan.md",
+    "98_Templates/Auto-Task.md",
+    "98_Templates/Quick-Task.md",
+    "00_Daily/Conor/20-03-26.md",
+    "05_References/droplet stage timings - dataset.md",
+    "droplet-stage-timings.md",
+    "00_Daily/Conor/19-03-26.md",
+    "99_Journal_Staging/Daily_Notes/2026-03-02.md",
     "99_Journal_Staging/Daily_Notes/2026-03-18.md",
+    "06_Concepts",
     "99_Journal_Staging/Daily_Notes/2026-01-05.md",
     "98_Templates/Weekly-Review.md",
-    "00_Daily/Conor/19-03-26.md",
     "V5-p.md",
     "98_Templates/Daily.md",
     "99_Journal_Staging/Processing_Summary.md",
-    "04_Tasks/Rolling TODO.md",
     "Hydrophilic-Coating-Research.md",
-    "99_Journal_Staging/processing_log.md",
-    "99_Journal_Staging/Issue_Notes/DFU-Burst-Analysis.md",
-    "99_Journal_Staging/Daily_Notes/2026-02-17.md",
-    "98_Templates/TODO.md",
-    "98_Templates/Weekly.md",
-    "98_Templates/issue-template.md",
-    "01_Product/Issues/OneDrive folder refactor & obsidian filtering plan.md",
-    "99_Journal_Staging/Design_Notes/V5-Device-Development.md",
-    "99_Journal_Staging/Design_Notes/1um-Manufacturing-Process.md",
     "99_Journal_Staging/Daily_Notes/sedpkqSPB",
     "99_Journal_Staging/Daily_Notes/sed6VpZLP",
-    "99_Journal_Staging/Daily_Notes/2026-03-19.md",
-    "99_Journal_Staging/Daily_Notes/30-01-26.md",
-    "99_Journal_Staging/Daily_Notes/2026-03-02.md",
-    "99_Journal_Staging/Daily_Notes/2026-02-19.md",
-    "99_Journal_Staging/Daily_Notes/2026-02-09.md",
-    "99_Journal_Staging/Daily_Notes/2026-02-05.md",
-    "99_Journal_Staging/Daily_Notes/2026-02-04.md",
     "99_Journal_Staging/Research_Notes",
     "99_Journal_Staging/Project_Notes",
     "99_Journal_Staging/Issue_Notes",
-    "99_Journal_Staging/Design_Notes",
-    "99_Journal_Staging/Daily_Notes",
-    "99_Journal_Staging",
-    "00_Daily/Conor/19/03",
-    "00_Daily/Conor/19"
+    "99_Journal_Staging/Design_Notes"
   ]
 }

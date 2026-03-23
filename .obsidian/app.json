@@ -1,4 +1,8 @@
 {
   "livePreview": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "openBehavior": "daily",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "06_Concepts",
+  "showLineNumber": false
 }
