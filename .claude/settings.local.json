@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"quickadd\\\\|QuickAdd\" . --include=*.md)",
+      "Bash(CLAUDE.md:*)",
+      "Bash(98_Templates/Issue.md:*)",
+      "Bash(98_Templates/Project.md:*)",
+      "Bash(98_Templates/Weekly.md:*)",
+      "Bash(98_Templates/TODO.md:*)",
+      "Bash(98_Templates/Issue-Mother.md:*)",
+      "Bash(find . -maxdepth 3 -name *.txt -type f)",
+      "Bash(find . -type f \\\\\\(-name *.txt -o -name *.md \\\\\\))",
+      "Bash(99_Journal_Staging/_Final_Destinations.md:*)",
+      "Bash(99_Journal_Staging/processing_log.md:*)",
+      "Bash(99_Journal_Staging/Daily_Notes/05-01-26.md:*)",
+      "Bash(99_Journal_Staging/Daily_Notes/08-01-26.md:*)",
+      "Bash(99_Journal_Staging/Daily_Notes/21-01-26.md:*)",
+      "Bash(99_Journal_Staging/Daily_Notes/26-01-26.md:*)",
+      "Bash(find 98_Templates -type f -name *.md)",
+      "Bash(find 04_Tasks -type f -name *.md)",
+      "Bash(find 01_Product -name *.md -type f)",
+      "Bash(grep -r '^## Now$' . --include=*.md)",
+      "Bash(grep -r '^## Focus$' . --include=*.md)",
+      "Bash(find .obsidian -type f -name *.json)",
+      "WebSearch"
+    ]
+  }
+}
