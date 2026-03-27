@@ -33,11 +33,16 @@ module.exports = async (params) => {
         const currentNoteName = activeView.file.basename;
 
         // Format the task entry
-        const today = new Date().toISOString().split('T')[0];
-        const taskEntry = `- [ ] ${today} // ${taskText} // [[${currentNoteName}]]`;
+        const now = new Date();
+        const dd = String(now.getDate()).padStart(2, '0');
+        const mm = String(now.getMonth() + 1).padStart(2, '0');
+        const yy = String(now.getFullYear()).slice(2);
+        const formattedDate = `${dd}/${mm}/${yy}`;
+        const isoDate = `${now.getFullYear()}-${mm}-${dd}`;
+        const taskEntry = `- [ ] ${formattedDate} | ${taskText} | [[${currentNoteName}]] ➕ ${isoDate}`;
 
         // Define your task note path (adjust this to your preference)
-        const taskNotePath = "04_Tasks/Tasks.md";
+        const taskNotePath = "04_Tasks/Tasks-data.md";
 
         // Get or create the task note
         let taskFile = app.vault.getAbstractFileByPath(taskNotePath);
@@ -51,19 +56,7 @@ module.exports = async (params) => {
         // Read current content of task note
         const taskNoteContent = await app.vault.read(taskFile);
 
-        // Find where to insert the task (before the Completed section)
-        const completedSectionIndex = taskNoteContent.indexOf("## ✅ Completed");
-
-        let updatedContent;
-        if (completedSectionIndex !== -1) {
-            // Insert before the Completed section
-            const beforeCompleted = taskNoteContent.substring(0, completedSectionIndex);
-            const afterCompleted = taskNoteContent.substring(completedSectionIndex);
-            updatedContent = beforeCompleted + taskEntry + "\n\n" + afterCompleted;
-        } else {
-            // No Completed section found, just append to end
-            updatedContent = taskNoteContent + "\n" + taskEntry;
-        }
+        const updatedContent = taskNoteContent.trimEnd() + "\n" + taskEntry;
 
         // Write back to task note
         await app.vault.modify(taskFile, updatedContent);

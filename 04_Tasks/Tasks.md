@@ -6,9 +6,9 @@
 not done
 path includes 04_Tasks/Tasks-data.md
 hide backlink
+hide created date
+sort by created reverse
 ```
-
-- [ ] 2026-03-27 // test // [[2026-03-26]]
 
 ## ✅ Completed
 
@@ -16,5 +16,6 @@ hide backlink
 done
 path includes 04_Tasks/Tasks-data.md
 hide backlink
+hide created date
 sort by done reverse
 ```

@@ -32,7 +32,13 @@
       "Bash(wc -l \"/c/Users/conor/Documents/work-vault/work_vault/98_Templates\"/*.md)",
       "Bash(grep -r \"19-03-26\\\\|20-03-26\" C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)",
       "Bash(grep -r 00_Daily/Conor/2026-03 C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)",
-      "Bash(grep -r \"\\\\[\\\\[.*2026-03\\\\|2026-03.*\\\\]\\\\]\" C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)"
+      "Bash(grep -r \"\\\\[\\\\[.*2026-03\\\\|2026-03.*\\\\]\\\\]\" C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)",
+      "Bash(mkdir -p \"00_Daily/Conor/2026/03\")",
+      "Bash(mv \"00_Daily/Conor/2026-03-23.md\" \"00_Daily/Conor/2026/03/2026-03-23.md\")",
+      "Bash(mv \"00_Daily/Conor/2026-03-24.md\" \"00_Daily/Conor/2026/03/2026-03-24.md\")",
+      "Bash(mv \"00_Daily/Conor/2026-03-25.md\" \"00_Daily/Conor/2026/03/2026-03-25.md\")",
+      "Bash(mv \"00_Daily/Conor/2026-03-26.md\" \"00_Daily/Conor/2026/03/2026-03-26.md\")",
+      "Bash(cd:*)"
     ]
   }
 }
