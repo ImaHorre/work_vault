@@ -6,22 +6,23 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "04_Tasks/Tasks.md",
+      "captureTo": "04_Tasks/Tasks-data.md",
       "captureToActiveFile": false,
       "format": {
         "enabled": true,
-        "format": "- [ ] {{VALUE}} #general ([[{{DATE:YYYY-MM-DD}}]])"
+        "format": "- [ ] {{DATE:DD/MM/YY}} | {{VALUE}} | [[{{DATE:YYYY-MM-DD}}]]"
       },
       "insertAfter": {
-        "enabled": true,
-        "after": "*Quick capture: Use `/task` in daily notes to add items here*",
-        "insertAtEnd": false,
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
       "task": false,
-      "openFile": false
+      "openFile": false,
+      "writeToBottomOfFile": true
     },
     {
       "id": "91b1efd0-1d75-4d45-92da-32cd03c07a07",

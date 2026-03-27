@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "04_Tasks/Tasks.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -56,8 +56,57 @@
               "icon": "lucide-file",
               "title": "2026-03-25"
             }
+          },
+          {
+            "id": "6565839599d849dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Tasks/Quarterly/Q1/Q1 Milestones.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Q1 Milestones"
+            }
+          },
+          {
+            "id": "832c5ba5a34cb974",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Daily/Conor/2026-03-27.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-27"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -240,23 +289,34 @@
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "githobs:Manage a github issue": false,
-      "completed-area:Completed Area": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b1d8a242ed1ab30",
+  "active": "832c5ba5a34cb974",
   "lastOpenFiles": [
-    "00_Daily/Conor/2026-03-25.md",
     "04_Tasks/Tasks.md",
+    "00_Daily/Conor/2026-03-27.md",
+    "04_Tasks/Quarterly/Q1/Q1 Milestones.md",
+    "04_Tasks/Quarterly/Q1/Untitled.md",
+    "00_Daily/Conor/2026-03-25.md",
+    "00_Daily/Conor/2026-03-26.md",
+    "04_Tasks/Quarterly/Q1",
+    "04_Tasks/Tasks-data.md",
+    "02_Projects/PE - Internal/Ongoing/Numerical Model/Droplet generation stage timings.md",
+    "02_Projects/PE - Internal/Ongoing/Numerical Model/Numerical model.md",
+    "02_Projects/PE - Internal/Ongoing/Numerical Model/Nodal network.md",
+    "01_Product/Designs/V4_10.md",
+    "01_Product/Designs/V5_30.md",
+    "02_Projects/PE - Internal/Ongoing/OneDrive folder refactor & obsidian filtering plan.md",
+    "02_Projects/PE - Internal/Ongoing",
     "gcm-diagnose.log",
     "CLAUDE.md",
-    "00_Daily/Conor/2026-03-26.md",
     "04_Tasks/Quarterly/Q2 Planning.md",
     "02_Projects/Innobooster/Innobooster - DTU Food Report Plan.md",
     "02_Projects/PE - Internal",
     "02_Projects/Innobooster - DTU Food/Innobooster - DTU Food Report Plan.md",
     "02_Projects/Innobooster - DTU Food/Innobooster  - DTU Food.md",
     "02_Projects/Innobooster/Innobooster  - DTU Food.md",
-    "01_Product/Issues/OneDrive folder refactor & obsidian filtering plan.md",
     "05_References/Innobooster - DTU Food - 1.2 Report.md",
     "06_Concepts/WFH.md",
     "00_Daily/Conor/2026-03-24.md",
@@ -264,22 +324,12 @@
     "00_Daily/Conor/20-03-26.md",
     "00_Daily/Conor/19-03-26.md",
     "02_Projects/MASS-3D/PE-KTH - Meeting - 26-03-26.md",
-    "02_Projects/MASS-3D/MASS-3D.md",
-    "06_Concepts/Untitled 1.md",
-    "CLOCALclaude-plansgraceful-percolating-flute.md",
-    "05_References/Innobooster - DTU Food - 2.1 Report.md",
-    "05_References/Innobooster - DTU Food - 1.4 Report.md",
-    "03_Research/Numerical Model/Droplet generation stage timings.md",
-    "03_Research/Numerical Model/Nodal network.md",
-    "03_Research/Numerical Model/Numerical model.md",
     "99_Journal_Staging/Research_Notes",
     "99_Journal_Staging/Project_Notes",
     "99_Archive",
     "04_Tasks/Weekly",
     "04_Tasks/Quarterly",
     "04_Tasks/Monthly",
-    "03_Research/Numerical Model",
-    "03_Research",
     "Pasted image 20260325130306.png"
   ]
 }

@@ -27,7 +27,12 @@
       "Bash(\"C:/Users/conor/Documents/work-vault/work_vault/04_Tasks/Tasks.md\":*)",
       "Bash(git push:*)",
       "Bash(git config:*)",
-      "Bash(git credential-manager:*)"
+      "Bash(git credential-manager:*)",
+      "Bash(git fetch:*)",
+      "Bash(wc -l \"/c/Users/conor/Documents/work-vault/work_vault/98_Templates\"/*.md)",
+      "Bash(grep -r \"19-03-26\\\\|20-03-26\" C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)",
+      "Bash(grep -r 00_Daily/Conor/2026-03 C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)",
+      "Bash(grep -r \"\\\\[\\\\[.*2026-03\\\\|2026-03.*\\\\]\\\\]\" C:/Users/conor/Documents/work-vault/work_vault --include=*.md -l)"
     ]
   }
 }
