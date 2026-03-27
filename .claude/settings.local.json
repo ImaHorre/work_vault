@@ -22,7 +22,12 @@
       "Bash(grep -r '^## Now$' . --include=*.md)",
       "Bash(grep -r '^## Focus$' . --include=*.md)",
       "Bash(find .obsidian -type f -name *.json)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(ls:*)",
+      "Bash(\"C:/Users/conor/Documents/work-vault/work_vault/04_Tasks/Tasks.md\":*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git credential-manager:*)"
     ]
   }
 }

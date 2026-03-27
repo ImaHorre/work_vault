@@ -33,7 +33,8 @@ module.exports = async (params) => {
         const currentNoteName = activeView.file.basename;
 
         // Format the task entry
-        const taskEntry = `- [ ] ${taskText} [[${currentNoteName}]]`;
+        const today = new Date().toISOString().split('T')[0];
+        const taskEntry = `- [ ] ${today} // ${taskText} // [[${currentNoteName}]]`;
 
         // Define your task note path (adjust this to your preference)
         const taskNotePath = "04_Tasks/Tasks.md";

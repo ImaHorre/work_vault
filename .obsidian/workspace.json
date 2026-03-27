@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05_References/Innobooster - DTU Food - 1.2 Report.md",
+                "file": "00_Daily/Conor/2026-03-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,35 +54,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Innobooster - DTU Food - 1.2 Report"
-            }
-          },
-          {
-            "id": "2ee02e2428c00cdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Projects/Innobooster/Innobooster - DTU Food Report Plan.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Innobooster - DTU Food Report Plan"
+              "title": "2026-03-25"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,12 +207,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "0b1d8a242ed1ab30",
+            "type": "leaf",
+            "state": {
+              "type": "github-issue-controls-view",
+              "state": {},
+              "icon": "github",
+              "title": "Github Issue Controls"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -254,46 +239,47 @@
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "githobs:Manage a github issue": false
+      "githobs:Manage a github issue": false,
+      "completed-area:Completed Area": false
     }
   },
-  "active": "2ee02e2428c00cdd",
+  "active": "0b1d8a242ed1ab30",
   "lastOpenFiles": [
-    "02_Projects/Innobooster/Innobooster  - DTU Food.md",
-    "05_References/Innobooster - DTU Food - 1.3 Report.md",
-    "05_References/Innobooster - DTU Food - 1.2 Report.md",
-    "02_Projects/Innobooster/Innobooster - DTU Food Report Plan.md",
+    "00_Daily/Conor/2026-03-25.md",
     "04_Tasks/Tasks.md",
-    "05_References/Innobooster - DTU Food - 1.1 Report.md",
-    "02_Projects/MASS-3D/DFU - deep etch.md",
-    "02_Projects/MASS-3D/MASS-3D.md",
-    "02_Projects/MASS-3D/Untitled.md",
-    "02_Projects/MASS-3D",
+    "gcm-diagnose.log",
+    "CLAUDE.md",
+    "00_Daily/Conor/2026-03-26.md",
+    "04_Tasks/Quarterly/Q2 Planning.md",
+    "02_Projects/Innobooster/Innobooster - DTU Food Report Plan.md",
+    "02_Projects/PE - Internal",
+    "02_Projects/Innobooster - DTU Food/Innobooster - DTU Food Report Plan.md",
+    "02_Projects/Innobooster - DTU Food/Innobooster  - DTU Food.md",
+    "02_Projects/Innobooster/Innobooster  - DTU Food.md",
+    "01_Product/Issues/OneDrive folder refactor & obsidian filtering plan.md",
+    "05_References/Innobooster - DTU Food - 1.2 Report.md",
+    "06_Concepts/WFH.md",
     "00_Daily/Conor/2026-03-24.md",
     "00_Daily/Conor/2026-03-23.md",
-    "02_Projects/Innobooster",
-    "CLAUDE.md",
-    "06_Concepts/P_oil vs droplet production stage timings.md",
-    "06_Concepts/numerical model.md",
-    "04_Tasks/Daily Tasks.md",
-    "Scripts/line-task-capture.js",
-    "Scripts",
-    "98_Templates/Simple-Task.md",
-    "98_Templates/Parse-Task.md",
-    "01_Product/Issues/OneDrive folder refactor & obsidian filtering plan.md",
-    "98_Templates/Auto-Task.md",
-    "98_Templates/Quick-Task.md",
     "00_Daily/Conor/20-03-26.md",
-    "05_References/droplet stage timings - dataset.md",
-    "droplet-stage-timings.md",
     "00_Daily/Conor/19-03-26.md",
-    "99_Journal_Staging/Daily_Notes/2026-03-02.md",
-    "99_Journal_Staging/Daily_Notes/2026-03-18.md",
-    "06_Concepts",
-    "99_Journal_Staging/Daily_Notes/sedpkqSPB",
-    "99_Journal_Staging/Daily_Notes/sed6VpZLP",
+    "02_Projects/MASS-3D/PE-KTH - Meeting - 26-03-26.md",
+    "02_Projects/MASS-3D/MASS-3D.md",
+    "06_Concepts/Untitled 1.md",
+    "CLOCALclaude-plansgraceful-percolating-flute.md",
+    "05_References/Innobooster - DTU Food - 2.1 Report.md",
+    "05_References/Innobooster - DTU Food - 1.4 Report.md",
+    "03_Research/Numerical Model/Droplet generation stage timings.md",
+    "03_Research/Numerical Model/Nodal network.md",
+    "03_Research/Numerical Model/Numerical model.md",
     "99_Journal_Staging/Research_Notes",
     "99_Journal_Staging/Project_Notes",
-    "99_Journal_Staging/Issue_Notes"
+    "99_Archive",
+    "04_Tasks/Weekly",
+    "04_Tasks/Quarterly",
+    "04_Tasks/Monthly",
+    "03_Research/Numerical Model",
+    "03_Research",
+    "Pasted image 20260325130306.png"
   ]
 }
