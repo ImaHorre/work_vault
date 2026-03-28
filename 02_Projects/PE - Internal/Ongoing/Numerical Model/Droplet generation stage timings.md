@@ -3,7 +3,7 @@ For predicting the droplet generation rate and pressure distribution when changi
 
 One variation of that model looked at the droplet generation mechanic as two 'stages' and finding ways of evaluating both of those stages and predicting the timing for each based on their relationships with system inputs. 
 
-![[Pasted image 20260325130306.png]]
+![[droplet mechanism stage breakdown V5-30.png]]
 
 ***Stage 1*** : The oil meniscus starts at its furthest point from the DFU exit. Q<sub>oil</sub> within the DFU drives the meniscus forward. Driven by DFU resistance, *R* and $\Delta P$ over the DFU (*P<sub>oil(x)</sub>*   and *P<sub>water(x)</sub>*), where x is some distance along the length of the device. These local pressures can be found from solving and eventually reiterating over the device geometry and Q/P inputs the [[Nodal network]]. 
 
